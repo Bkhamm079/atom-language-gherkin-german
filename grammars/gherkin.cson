@@ -4,11 +4,11 @@
 "name": 'Gherkin'
 "patterns": [
     {
-        "match": '\\s*(Scenario\\:|Feature\\:|Scenario Outline\\:|Background\\:|Examples\\:)'
+        "match": '\\s*(Scenario\\:|Feature\\:|Scenario Outline\\:|Background\\:|Examples\\:|Szenario\\:|Funktionalität\\:|Szenariogrundriss\\:|Grundlage\\:|Beispiele\\:)'
         "name": 'keyword.gherkin'
     }
     {
-        "match": '\\s*(Given|Then|When|And|But)'
+        "match": '\\s*(Given|Then|When|And|But|Angenommen|Gegeben sei|Gegeben seien|Dann|Wenn|Dann|Aber)'
         "name": 'support.class.gherkin'
     }
     {
