@@ -4,12 +4,12 @@
 "name": 'Gherkin'
 "patterns": [
     {
-        "match": '\\s*(Scenario\\:|Feature\\:|Scenario Outline\\:|Background\\:|Examples\\:|Szenario\\:|Funktionalität\\:|Szenariogrundriss\\:|Grundlage\\:|Beispiele\\:)'
+        "match": '\\s*(Scenario\\:|Scenario\\s+Outline\\:|Scenario\\s+Template\\:|Feature\\:|Business\\s+Need\\:|Ability\\:|Scenario\\s+Outline\\:|Background\\:|Examples\\:|Scenarios\\:|Szenario\\:|Funktionalität\\:|Szenariogrundriss\\:|Grundlage\\:|Beispiele\\:)'
         "name": 'keyword.gherkin'
     }
     {
-        "match": '\\s*(Given|Then|When|And|But|Angenommen|Gegeben sei|Gegeben seien|Dann|Wenn|Dann|Aber)'
-        "name": 'support.class.gherkin'
+        "match": '\\s*(Given\\s+|Then\\s+|When\\s+|And\\s+|But\\s+|Angenommen\\s+|Gegeben\\s+sei\\s+|Gegeben\\s+seien\\s+|Dann\\s+|Wenn\\s+|Und\\s+|Aber\\s+)'
+        "name": 'variable.class.gherkin'
     }
     {
         "match": '(?<=\\s|^)(@[A-Za-z0-9_\\-]+)'
