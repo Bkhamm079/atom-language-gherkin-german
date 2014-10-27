@@ -4,7 +4,7 @@
 "name": 'Gherkin'
 "patterns": [
     {
-        "match": '\\s*(Scenario\\:|Scenario\\s+Outline\\:|Scenario\\s+Template\\:|Feature\\:|Business\\s+Need\\:|Ability\\:|Scenario\\s+Outline\\:|Background\\:|Examples\\:|Scenarios\\:|Constraints\\:|Szenario\\:|Funktionalität\\:|Szenariogrundriss\\:|Grundlage\\:|Beispiele\\:)'
+        "match": '\\s*(Scenario\\:|Scenario\\s+Outline\\:|Scenario\\s+Template\\:|Feature\\:|Business\\s+Need\\:|Ability\\:|Scenario\\s+Outline\\:|Background\\:|Examples\\:|Scenarios\\:|Formalisation\\:|Szenario\\:|Funktionalität\\:|Szenariogrundriss\\:|Grundlage\\:|Beispiele\\:|Formalisierung\\:)'
         "name": 'keyword.gherkin'
     }
     {
