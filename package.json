@@ -1,6 +1,6 @@
 {
   "name": "language-gherkin-german",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Gherkin language support in Atom for English and German",
   "repository": "https://github.com/JGottschick/atom-language-gherkin-german",
   "license": "MIT",
